@@ -9,9 +9,6 @@ const ourStaff = [
     gender: 'Male',
     img: '../assets/images/profile-pic-1.png',
     profile: `Lorem, ipsum dolor sit amet 
-    consectetur adipisicing elit. Consequatur, 
-    dolores ipsa quo sunt omnis nemo autem 
-    corrupti minima sapiente veritatis rem 
     culpa consectetur cupiditate vitae amet 
     aliquam non necessitatibus iste.`,
   },
@@ -23,9 +20,6 @@ const ourStaff = [
     gender: 'Male',
     img: '../assets/images/profile-pic-2.png',
     profile: `Lorem, ipsum dolor sit amet 
-    consectetur adipisicing elit. Consequatur, 
-    dolores ipsa quo sunt omnis nemo autem 
-    corrupti minima sapiente veritatis rem 
     culpa consectetur cupiditate vitae amet 
     aliquam non necessitatibus iste.`,
   },
@@ -37,11 +31,7 @@ const ourStaff = [
     gender: 'Male',
     img: '../assets/images/profile-pic-3.png',
     profile: `Lorem, ipsum dolor sit amet 
-    consectetur adipisicing elit. Consequatur, 
-    dolores ipsa quo sunt omnis nemo autem 
-    corrupti minima sapiente veritatis rem 
-    culpa consectetur cupiditate vitae amet 
-    aliquam non necessitatibus iste.`,
+    consectetur adipisicing elit. Consequatur.`,
   },
   {
     id: 4,
@@ -51,11 +41,7 @@ const ourStaff = [
     gender: 'Male',
     img: '../assets/images/profile-pic-4.png',
     profile: `Lorem, ipsum dolor sit amet 
-    consectetur adipisicing elit. Consequatur, 
-    dolores ipsa quo sunt omnis nemo autem 
-    corrupti minima sapiente veritatis rem 
-    culpa consectetur cupiditate vitae amet 
-    aliquam non necessitatibus iste.`,
+    consectetur adipisicing elit. Consequatur`,
   },
   {
     id: 5,
@@ -66,10 +52,7 @@ const ourStaff = [
     img: '../assets/images/profile-pic-5.png',
     profile: `Lorem, ipsum dolor sit amet 
     consectetur adipisicing elit. Consequatur, 
-    dolores ipsa quo sunt omnis nemo autem 
-    corrupti minima sapiente veritatis rem 
-    culpa consectetur cupiditate vitae amet 
-    aliquam non necessitatibus iste.`,
+    .`,
   },
   {
     id: 6,
@@ -79,11 +62,7 @@ const ourStaff = [
     gender: 'Male',
     img: '../assets/images/profile-pic-6.png',
     profile: `Lorem, ipsum dolor sit amet 
-    consectetur adipisicing elit. Consequatur, 
-    dolores ipsa quo sunt omnis nemo autem 
-    corrupti minima sapiente veritatis rem 
-    culpa consectetur cupiditate vitae amet 
-    aliquam non necessitatibus iste.`,
+    consectetur adipisicing elit. Consequatur`,
   },
 ];
 
