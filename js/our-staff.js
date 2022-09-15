@@ -8,7 +8,7 @@ const ourStaff = [
     lastName: 'Tetteh',
     position: 'CEO',
     gender: 'Male',
-    img: '../assets/images/profile-pic-1.png',
+    img: './assets/images/profile-pic-1.png',
     profile: `Lorem, ipsum dolor sit amet 
     culpa consectetur cupiditate vitae amet 
     aliquam non necessitatibus iste.`,
@@ -19,7 +19,7 @@ const ourStaff = [
     lastName: 'Duku',
     position: 'CFO',
     gender: 'Male',
-    img: '../assets/images/profile-pic-2.png',
+    img: './assets/images/profile-pic-2.png',
     profile: `Lorem, ipsum dolor sit amet 
     culpa consectetur cupiditate vitae amet 
     aliquam non necessitatibus iste.`,
@@ -30,7 +30,7 @@ const ourStaff = [
     lastName: 'Otoo',
     position: 'General Manager',
     gender: 'Male',
-    img: '../assets/images/profile-pic-3.png',
+    img: './assets/images/profile-pic-3.png',
     profile: `Lorem, ipsum dolor sit amet 
     consectetur adipisicing elit. Consequatur.`,
   },
@@ -40,7 +40,7 @@ const ourStaff = [
     lastName: 'Clark',
     position: 'Marketing Executive',
     gender: 'Male',
-    img: '../assets/images/profile-pic-4.png',
+    img: './assets/images/profile-pic-4.png',
     profile: `Lorem, ipsum dolor sit amet 
     consectetur adipisicing elit. Consequatur`,
   },
@@ -88,7 +88,7 @@ const staffProfile = (more) => {
       const profiles = `<div class="staff"> <div>
   <img
     class="staff-pic-bg"
-    src="./assets/images/bg-image.jpg"
+    src="../assets/images/bg-image.jpg"
     alt=""
     class="bg-image"
   />
