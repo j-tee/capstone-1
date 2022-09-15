@@ -50,7 +50,7 @@ const ourStaff = [
     lastName: 'Brown',
     position: 'Chief Accountant',
     gender: 'Male',
-    img: '../assets/images/profile-pic-5.png',
+    img: './assets/images/profile-pic-5.png',
     profile: `Lorem, ipsum dolor sit amet 
     consectetur adipisicing elit. Consequatur, 
     .`,
@@ -61,7 +61,7 @@ const ourStaff = [
     lastName: 'Mensah',
     position: 'Managing Director',
     gender: 'Male',
-    img: '../assets/images/profile-pic-6.png',
+    img: './assets/images/profile-pic-6.png',
     profile: `Lorem, ipsum dolor sit amet 
     consectetur adipisicing elit. Consequatur`,
   },
@@ -88,7 +88,7 @@ const staffProfile = (more) => {
       const profiles = `<div class="staff"> <div>
   <img
     class="staff-pic-bg"
-    src="../assets/images/bg-image.jpg"
+    src="./assets/images/bg-image.jpg"
     alt=""
     class="bg-image"
   />
