@@ -48,10 +48,11 @@ html {
 
 nav ul {
   position: fixed;
+  padding-top: 5rem;
   list-style: none;
   display: flex;
   flex-direction: column;
-  padding-left: 0;
+  padding-left: 3rem;
   inset: 0 0 0 0;
   z-index: 99999999;
   transform: translateX(-100%);
@@ -236,6 +237,7 @@ nav ul li {
   padding-top: 2rem;
   flex-direction: column;
   background-color: #f7f7f7;
+  background-image: url('../assets/images/bg-img-2.png');
 }
 
 #abt-section-1 p {
