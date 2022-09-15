@@ -97,6 +97,10 @@ nav ul[data-visible="true"] {
   color: red;
 }
 
+#section-1 {
+  padding-top: 5rem;
+}
+
 #section-1 p {
   border: 2px solid white;
   padding: 1rem;
