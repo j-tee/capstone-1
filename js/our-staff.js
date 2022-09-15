@@ -1,3 +1,4 @@
+/* eslint-disable no-lonely-if */
 /* eslint-disable template-curly-spacing */
 /* eslint-disable linebreak-style */
 const ourStaff = [
@@ -66,14 +67,25 @@ const ourStaff = [
   },
 ];
 
-const container = document.getElementById('stafflist')
-// console.log('================================')
-// console.log(container)
-// console.log('================================')
-window.addEventListener('load', () => {
-  ourStaff.forEach((staff) => {
-    const profiles = `<div class="staff">
-<div>
+const win = window.matchMedia('(min-width: 768px)');
+const btn = document.querySelector('.more');
+let more = false;
+let len;
+// let match = true;
+
+const staffProfile = (more) => {
+  len = ourStaff.length;
+  if (!win.matches && !more) {
+    len = ourStaff.length / 3;
+  }
+  const container = document.getElementById('stafflist');
+  while (container.hasChildNodes()) {
+    container.removeChild(container.firstChild);
+  }
+
+  ourStaff.forEach((staff, index) => {
+    if (index <= len) {
+      const profiles = `<div class="staff"> <div>
   <img
     class="staff-pic-bg"
     src="./assets/images/bg-image.jpg"
@@ -94,6 +106,16 @@ window.addEventListener('load', () => {
   </p>
 </div>
 </div>`;
-    container.insertAdjacentHTML('beforeend', profiles);
+      container.insertAdjacentHTML('beforeend', profiles);
+    }
   });
+};
+
+btn.addEventListener('click', () => {
+  more = !more;
+  staffProfile(more);
+});
+
+window.addEventListener('load', () => {
+  staffProfile(more);
 });
